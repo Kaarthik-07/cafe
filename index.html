@@ -14,11 +14,11 @@
             <form id="form">
                <div class="field">
                   <span class="fa fa-user-astronaut"></span>
-                  <input id="email"  type="text"placeholder="Email or Phone" required>
+                  <input id="email"  type="text"placeholder="Email or Phone" >
                </div>
                <div class="field space">
                   <span class="fa fa-lock"></span>
-                  <input id="password" type="password" class="pass-key" placeholder="Password" required>
+                  <input id="password" type="password" class="pass-key" placeholder="Password" >
                   <span class="show">SHOW</span>
                </div>
                <div class="pass">
@@ -38,7 +38,7 @@
       </div>
       <script>
          document.getElementById('submit').onclick = () => {
-            let data = prompt("Enter a Valid Input")
+            let data = alert("Enter a Valid Input")
             alert(data)
          }
       </script>
