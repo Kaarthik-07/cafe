@@ -73,30 +73,7 @@ a:hover {
   color: var(--blue);
 }
 
-/* Scroll Bar */
-::-webkit-scrollbar {
-  width: 12px;
-}
-::-webkit-scrollbar-thumb {
-  background: var(--red);
-  background: linear-gradient(
-    90deg,
-    rgba(52, 1, 11, 1) 0%,
-    rgba(121, 9, 9, 1) 36%,
-    rgba(255, 0, 0, 1) 100%
-  );
-}
-::-webkit-scrollbar-track {
-  background: #e4a576;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: radial-gradient(
-    circle,
-    rgba(52, 1, 11, 1) 0%,
-    rgba(121, 9, 9, 1) 36%,
-    rgba(255, 0, 0, 1) 100%
-  );
-}
+
 ::-webkit-scrollbar-button {
   display: none;
 }
@@ -152,24 +129,8 @@ a:hover {
   border-radius: 3px;
   box-shadow: 10px 10px 24px -1px rgba(123, 123, 123, 0.75);
 }
-.scroll {
-  position: absolute;
-  bottom: 0;
-  margin-bottom: 2rem;
-  z-index: 2;
-}
-.scroll a {
-  color: var(--black);
-  text-decoration: none;
-  display: flex;
-  align-items: center;
-}
-.scroll a:hover {
-  color: var(--black);
-}
-.scroll .svg {
-  margin-right: 0.5rem;
-}
+
+
 /* brands */
 .brands {
   min-height: 100vh;
@@ -361,4 +322,5 @@ footer .social svg {
   font-size: 2rem;
   margin: 1rem 1rem 1.5rem 0;
   color:#FFF;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
