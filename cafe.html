@@ -57,7 +57,7 @@
     </section>
     <section class="brands" id="brands" >
       <img class="bottom-img" src="coffee-beans.png" alt="coffee beans" />
-      <div class="brand">
+      <div class="brand" data-aos="fade-right">
         <div class="img">
           <img src="coffee-beans.png" alt="coffee beans" />
         </div>
@@ -71,7 +71,7 @@
           </p>
         </div>
       </div>
-      <div class="brand row-reverse">
+      <div class="brand row-reverse" data-aos="fade-left">
         <div class="img">
           <img src="coffee-beans.png" alt="coffee beans" />
         </div>
@@ -85,7 +85,7 @@
           </p>
         </div>
       </div>
-      <div class="brand">
+      <div class="brand"data-aos="fade-right">
         <div class="img">
           <img src="coffee-beans.png" alt="coffee beans" />
         </div>
@@ -127,5 +127,13 @@
         </div>
       </div>
     </footer>
+
+       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init ({
+            offset:400,
+            duration:1000
+        });
+    </script> 
   </body>
 </html>
